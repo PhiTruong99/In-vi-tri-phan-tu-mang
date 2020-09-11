@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>In vị trí phần tử mảng</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            //Viết một chương trình JavaScript để tìm một giá tri được nhập vào từ hộp thoại
+            //có nằm trong mảng hay không. Nếu có in ra vị trí của phần tử đó.
+            let dt = prompt("Nhập điện thoại cần tìm");
+            let dienthoai = ["Nokia", "Samsung", "Xiaomi", "Iphone", "Realme", "Huawei"];
+            for(let i=0;i<dienthoai.length;i++){
+                if(dt==dienthoai[i]){
+                    alert("Điện thoại " + dienthoai[i] + " ở vị trí " + i);
+            }
+        }
+        </script>
+    </body>
+</html>
